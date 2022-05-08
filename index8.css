@@ -1,0 +1,109 @@
+.corner {
+    display: flex;
+    flex-flow: nowrap;
+    position: relative;
+}
+
+.topcorner {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    left: 1258 px;
+    top: -8px;
+    border-bottom-left-radius: 200px;
+    position: absolute;
+}
+
+.bottomcorner {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    left: -8px;
+    top: 549px;
+    border-top-right-radius: 200px;
+    position: absolute;
+}
+
+.centerrow {
+    display: flex;
+    position: relative;
+    padding-left: 220px;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myrow {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-top: 170px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+
+
+
+
+}
+
+.mycircle {
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    margin: 2px;
+    border-radius: 100px;
+    padding: 5px;
+    position: relative;
+    left: 0px;
+    bottom: 220px;
+    margin-top: 195px;
+    border: 1px darkgrey solid;
+    display: flex;
+}
+
+.number {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 9px;
+    margin-left: 13.5px;
+    color: dimgray;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text {
+    width: 190px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 160px;
+    text-align: center;
+    justify-content: center;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+p {
+    margin-top: -15px;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: dimgray;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 0px;
+
+
+}
