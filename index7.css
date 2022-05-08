@@ -1,0 +1,55 @@
+.blackback {
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    padding-left: 13px;
+    padding-top: 12px;
+    margin-top: 50px;
+    margin-left: 100px;
+    position: absolute;
+
+}
+
+.inblackback {
+    background-color: white;
+    width: 94%;
+    height: 96.5%;
+    border-radius: 7px;
+    position: absolute;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.boxtop1 {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+    margin-top: 8px;
+    background-color: darkgray;
+    border: 3px black solid;
+    position: absolute;
+
+}
+
+.boxtop2 {
+    width: 50px;
+    height: 50px;
+    margin-left: 78px;
+    margin-top: 8px;
+    background-color: darkgrey;
+    border: 3px black solid;
+    position: absolute;
+
+}
+
+.boxtop3 {
+    width: 50px;
+    height: 50px;
+    margin-left: 42px;
+    margin-top: 30px;
+    background-color: palevioletred;
+    border: 3px black solid;
+    position: relative;
+    box-shadow: 6px 10px grey;
+
+}
